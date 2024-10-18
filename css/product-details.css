@@ -1,0 +1,103 @@
+header.flex
+{
+    background: var(--footerBG);
+    color: var(--whiteClo);
+    padding-block: 0.6rem;
+}
+
+header .fa-solid
+{
+    color: var(--whiteClo);
+}
+
+header .sign-in:hover,
+header .register:hover
+{
+    border: 1px solid rgb(152, 154, 189);
+    padding: 0.5rem 1.1rem;
+}
+
+header .cart:hover
+{
+    border: 1px solid rgb(152, 154, 189);
+    padding: 0.5rem 1.1rem 0.5rem 0.7rem;
+}
+
+header .logo:hover
+{
+    scale: 0.95;
+}
+
+/* MAIN SECTION */
+
+main.flex
+{
+    max-width: 800px;
+    border-radius: 0.4rem;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 1px -1px, rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;
+    background: var(--whiteClo);
+}
+
+main.flex img
+{
+    width: 40%;
+    border-radius: 0.4rem;
+}
+
+main.flex .price
+{
+    font-size: 1.22rem;
+    font-weight: bold;
+    color: var(--redButton);
+}
+
+main.flex .products-details
+{
+    margin-inline: 1.1rem;
+}
+
+main.flex .description
+{
+    margin-block: 1.2rem;
+    line-height: 1.44rem;
+    text-align: left;
+}
+
+main.flex .add-to-cart
+{
+    background: var(--blueButton);
+    color: var(--whiteClo);
+    border-radius: 4px;
+    padding: 6px 8px;margin-top: 0.5rem;
+    font-size: 0.9rem;
+}
+main.flex .match
+{
+    flex-wrap: wrap;
+}
+main.flex .add-to-cart .fa-cart-plus
+{
+    color: var(--whiteClo);
+}
+
+@media (width < 800px) {
+    main.flex
+    {
+        flex-wrap: wrap;
+    }
+    main.flex img
+    {
+        margin-inline: auto;
+        width: 250px;
+    }
+    main.flex .products-details
+    {
+       margin-top: 2.5rem;
+       margin-bottom: 1.3rem;
+    }
+    main.flex .add-to-cart
+    {
+        margin-block: 0.5rem;
+    }
+    
+}

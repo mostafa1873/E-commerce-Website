@@ -1,0 +1,131 @@
+header.flex
+{
+    background: var(--footerBG);
+    color: var(--whiteClo);
+    padding-block: 0.6rem;
+}
+
+header .fa-solid
+{
+    color: var(--whiteClo);
+}
+
+header .sign-in:hover,
+header .register:hover
+{
+    border: 1px solid rgb(152, 154, 189);
+    padding: 0.5rem 1.1rem;
+}
+
+header .cart:hover
+{
+    border: 1px solid rgb(152, 154, 189);
+    padding: 0.5rem 1.1rem 0.5rem 0.7rem;
+}
+
+header .logo:hover
+{
+    scale: 0.95;
+}
+
+/* MAIN CART PAGE */
+
+section.cart article.flex
+{
+    background: var(--whiteClo);
+    border-top: 2px solid var(--blueButton);
+    margin-top: 1.8rem;
+    justify-content: space-between;
+    max-width: 450px;
+    margin-inline: auto;
+    border-radius: 4px;
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 1px -1px, rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;
+}
+
+article.flex .fa-trash-can
+{
+    color: var(--redButton);
+    margin-left: 1rem;
+}
+
+article.flex .decrease
+{
+    color: var(--blueButton);
+    font-size: 1.9rem;
+}
+
+article.flex .increase
+{
+    color: var(--blueButton);
+    font-size: 1.4rem;
+}
+
+article.flex .quantity
+{
+    background: var(--blueButton);
+    color: var(--whiteClo);
+    font-size: 0.8rem;
+    height: 21px;
+    width: 21px;
+    border-radius: 50%;
+    justify-content: center;
+    margin-inline: 0.4rem;
+}
+
+/* BUTTON SECTION */
+
+button.clear
+{
+    background: var(--redButton);
+    color: var(--whiteClo);
+    margin-top: 1rem;
+    border-radius: 4px;
+    padding: 6px 8px;
+    font-size: 0.8rem;
+}
+
+ /* SUMMARY SECTION */
+
+ section.summary
+ {
+    background: var(--whiteClo);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 1px -1px, rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;
+    width: 325px;
+    margin-inline: auto;
+    margin-top: 2.5rem;
+    border-radius: 4px;
+ }
+
+ section.summary h1
+ {
+    font-size: 1.2rem;
+    padding-block: 0.5rem;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.12);
+ }
+
+ section.summary .flex
+ {
+    padding-inline: 0.5rem;
+    margin-block: 0.6rem;
+ }
+
+ section.summary button.checkout
+ {
+    width: 100%;
+    background: var(--blueButton);
+    color: var(--whiteClo);
+    padding-block: 0.6rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+ }
+
+ section.summary a
+ {
+    padding-block: 0.5rem;
+    color: var(--redButton);
+    font-size: 0.9rem;
+ }
+
+ 
+

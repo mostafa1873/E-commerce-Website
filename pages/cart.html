@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+
+
+
+    <title>CART</title>
+    <link rel="shortcut icon" href="../images/cart-arrow-down-solid.svg" type="image/x-icon">
+</head>
+
+<body style="height: 100vh; display: grid; grid-template-rows: auto 1fr auto; align-items: center;">
+    <link rel="stylesheet" href="../css/cart.css">
+
+    <header class="flex">
+        <a href="../index.html" class="logo">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <span style="font-weight: bold;">AWU</span>
+            <p style="letter-spacing: 0.5px;">Shopping</p>
+        </a>
+
+        <div class="links">
+            <a class="cart" href="./cart.html">
+                <i class="fa-solid fa-cart-shopping"></i>
+                $0.00
+                <span class="product-number">2</span>
+            </a>
+            <a class="sign-in" href="./signin.html">
+                <i class="fa-solid fa-right-to-bracket"></i>
+                Sign in</a>
+            <a class="register" href="./register.html">
+                <i class="fa-solid fa-user-plus"></i>
+                Register</a>
+        </div>
+    </header>
+
+    <main style="text-align: center;">
+        <section class="cart">
+            <article class="product flex">
+                <button><i class="fa-solid fa-trash-can"></i></button>
+                <p class="price">$133</p>
+                <div class="flex" style="margin-right: 1rem;">
+                    <button class="decrease">-</button>
+                    <div class="quantity flex">3</div>
+                    <button class="increase">+</button>
+                </div>
+                <p class="title">Product Title</p>
+                <img style="border-radius: 0.22rem; width:70px; height:70px;" src="../images/4.webp" alt="">
+
+
+            </article>
+
+            <article class="product flex">
+                <button><i class="fa-solid fa-trash-can"></i></button>
+                <p class="price">$133</p>
+                <div class="flex" style="margin-right: 1rem;">
+                    <button class="decrease">-</button>
+                    <div class="quantity flex">3</div>
+                    <button class="increase">+</button>
+                </div>
+                <p class="title">Product Title</p>
+                <img style="border-radius: 0.22rem; width:70px; height:70px;" src="../images/3.webp" alt="">
+
+
+            </article>
+
+            <article class="product flex">
+                <button><i class="fa-solid fa-trash-can"></i></button>
+                <p class="price">$133</p>
+                <div class="flex" style="margin-right: 1rem;">
+                    <button class="decrease">-</button>
+                    <div class="quantity flex">3</div>
+                    <button class="increase">+</button>
+                </div>
+                <p class="title">Product Title</p>
+                <img style="border-radius: 0.22rem; width:70px; height:70px;" src="../images/5.webp" alt="">
+
+
+            </article>
+
+
+
+        </section>
+
+
+
+        <button class="clear">
+            <i style="color: #fff; margin-right: 0.2rem;" class="fa-solid fa-trash-can icon"></i>
+            Clear Cart</button>
+
+
+        <section class="summary"> 
+            <h1>Cart Summary</h1>
+            <div class="flex" style="justify-content: space-between;">
+                <p class="subtotal">subtotal</p>
+                <p>$1999</p>
+            </div>
+            <button disabled class="checkout">CHECK OUT</button>
+
+
+            <a href="../pages/signin.html">Please Sign In To Continue</a>
+        </section>
+    </main>
+
+
+    <footer>
+        Designed and Developed by <span>Mostafa Osama</span> © 2024
+    </footer>
+
+</body>
+
+</html>
